@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import { Button, Form, FormItem, Input, Message, Container, Header, Aside,
          Main, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card,Row,
-         Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox} from 'element-ui'
+         Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox,
+          Tag, Tree, Select, Option} from 'element-ui'
 
 Vue.use(Button)
 Vue.use(Form)
@@ -26,6 +27,10 @@ Vue.use(TableColumn)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
 // 全局挂载message $message 为自定义属性
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
