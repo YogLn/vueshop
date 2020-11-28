@@ -2,7 +2,7 @@ import Vue from 'vue'
 import { Button, Form, FormItem, Input, Message, Container, Header, Aside,
          Main, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card,Row,
          Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox,
-          Tag, Tree, Select, Option} from 'element-ui'
+          Tag, Tree, Select, Option, Cascader} from 'element-ui'
 
 Vue.use(Button)
 Vue.use(Form)
@@ -31,6 +31,7 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 // 全局挂载message $message 为自定义属性
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
